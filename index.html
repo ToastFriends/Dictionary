@@ -15,5 +15,12 @@
         console.log('Not A Toast!')
       }
     </script>
+<script type="text/javascript">
+  $(document).ready(function(){
+      $(".ToastNum").onchange(function(){
+        $(".ToastNum").text("");
+      })
+    });
+  </script>
 <input type="text" id="ToastNum" placeholder="請輸入編號！Please input number!" onchange="" />
 <button onclick="goToast()">GO</button>
