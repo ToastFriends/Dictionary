@@ -6,6 +6,13 @@
   var RealToastNum = ToastNum.value;
   location.href = ('/' + RealToastNum)
   }
+  function isToast() {
+    var ToastNum = document.getElementById('ToastNum');
+    var RToastNum = ToastNum.value;
+    if (isNaN(RToastNum.value))
+      
+      else
+        console.log('Not A Toast!')
     </script>
-<input type="text" id="ToastNum" placeholder="請輸入編號！Please input number!" />
+<input type="text" id="ToastNum" placeholder="請輸入編號！Please input number!" onchange="" />
 <button onclick="goToast()">GO</button>
