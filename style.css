@@ -6,3 +6,6 @@ font {
   font-family: 'Noto Sans TC', sans-serif;
   font-size:35px
 }
+input,button {
+  font-family: 'Noto Sans TC', sans-serif;
+}
