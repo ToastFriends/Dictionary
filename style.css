@@ -12,3 +12,6 @@ input,button {
   width:200px;
   height:45px
 }
+button {
+  border:0px #FFFFFF solid;
+}
