@@ -10,7 +10,8 @@ input,button {
   font-family: 'Noto Sans TC', sans-serif;
   font-size:80px:
   width:200px;
-  height:45px
+  height:45px;
+  border-radius:5px;
 }
 button {
   border:0px #FFFFFF solid;
