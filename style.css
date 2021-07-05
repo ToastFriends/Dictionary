@@ -17,3 +17,7 @@ input,button {
 button {
   border:0px #FFFFFF solid;
 }
+body {
+-moz-user-select : none;
+-webkit-user-select: none;
+}
