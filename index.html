@@ -6,7 +6,6 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest"><link href="/style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript"> 
-  window.__cfRLUnblockHandlers = true
   function goToast(value){
     /*var ToastNum = document.getElementById('ToastNum');*/
     var RealToastNum = value; 
@@ -20,6 +19,6 @@
 </script>
 <font>你想了解各式各樣奇怪的吐司嗎？來吐司圖鑑就對了！<br>請輸入編號<!--利用下列搜尋框尋找吐司-->！Please input number<!--use search bar to find toast-->!</font>
 <br>
-<input type="text" id="ToastNum" onclick"this.focus" onblur="goToast(this.value)" /><!--button onclick="goToast()">GO</button-->
+<input type="text" id="ToastNum" onclick"this.focus" onblur="goToast(this.value)" /><button onclick="goToast()">GO</button>
 <!--<script async src="https://cse.google.com/cse.js?cx=52c9ed6606b60694f"></script>
 <div class="gcse-searchbox-only"></div>-->
